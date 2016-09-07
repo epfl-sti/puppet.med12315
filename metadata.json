@@ -1,0 +1,14 @@
+{
+  "name": "ponsfrilus-med12315",
+  "version": "0.0.1",
+  "author": "ponsfrilus",
+  "summary": "EPFL MED12315 configuration set",
+  "license": "Apache 2.0",
+  "source": "http://github.com/ponsfrilus/puppet-med12315",
+  "project_page": "https://github.com/ponsfrilus/puppet-med12315",
+  "issues_url": "https://github.com/ponsfrilus/puppet-med12315/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
