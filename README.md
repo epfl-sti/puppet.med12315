@@ -1,5 +1,15 @@
 # med12315
 
+# TL;DR
+```
+  # apt install puppet
+  # cd /etc/puppet/modules/
+  # git clone https://github.com/epfl-sti/puppet.med12315.git med12315
+  # puppet module install saz-sudo
+  # puppet module install domq/epfl_sso
+  # puppet apply  -e 'class { "med12315": sudoer_group => sti-it} '
+```
+
 #### Table of Contents
 
 1. [Overview](#overview)
